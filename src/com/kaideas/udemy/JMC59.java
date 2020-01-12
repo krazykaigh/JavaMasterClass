@@ -24,8 +24,7 @@ public class JMC59 {
       return "Invalid value";
 
     int minutes = seconds  / 60;
-    if (minutes > 0)
-      seconds %= 60;
+    seconds %= 60;
 
     return getDurationSTring(minutes, seconds);
   }
