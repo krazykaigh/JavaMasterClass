@@ -23,10 +23,6 @@ public class JMC59 {
     if (seconds < 0)
       return "Invalid value";
 
-//    int hours = seconds / 3600;
-//    if (hours > 0)
-//      seconds = seconds - (hours * 3600);
-
     int minutes = seconds  / 60;
     if (minutes > 0)
       seconds %= 60;
