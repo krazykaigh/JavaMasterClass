@@ -2,7 +2,7 @@ package com.kaideas.udemy.section5CodEx;
 
 import org.w3c.dom.ls.LSOutput;
 
-public class JMC_CodEx23 {
+public class JMC_CodEx23_NumberToWords {
 
   public static void main(String[] args) {
     System.out.println("Example Input/Output - getDigitCount method");

@@ -1,6 +1,6 @@
 package com.kaideas.udemy.section5CodEx;
 
-public class JMC_CodEx17 {
+public class JMC_CodEx17_EvenDigitSum {
 
   public static void main(String[] args) {
 

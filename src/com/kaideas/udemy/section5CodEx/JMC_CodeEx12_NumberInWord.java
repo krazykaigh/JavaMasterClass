@@ -2,7 +2,7 @@ package com.kaideas.udemy.section5CodEx;
 
 import java.util.Random;
 
-public class JMC_CodeEx12 {
+public class JMC_CodeEx12_NumberInWord {
 
   public static void main(String[] args) {
     // create instance of Random class

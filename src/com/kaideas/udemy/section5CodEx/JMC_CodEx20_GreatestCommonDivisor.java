@@ -1,6 +1,6 @@
 package com.kaideas.udemy.section5CodEx;
 
-public class JMC_CodEx20 {
+public class JMC_CodEx20_GreatestCommonDivisor {
 
   public static void main(String[] args) {
     System.out.println(getGreatestCommonDivisor(25, 15) + " is the GCD\n");

@@ -1,6 +1,6 @@
 package com.kaideas.udemy.section5CodEx;
 
-public class JMC_CodEx18 {
+public class JMC_CodEx18_SharedDigit {
 
   public static void main(String[] args) {
     System.out.println((hasSharedDigit(12,42)));

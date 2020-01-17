@@ -1,6 +1,6 @@
 package com.kaideas.udemy.section4CodEx;
 
-public class CodEx_9 {
+public class CodEx_9_MinutesToYearsAndDaysCalculator {
 
   public static void main(String[] args) {
     printYearsAndDays(525600);

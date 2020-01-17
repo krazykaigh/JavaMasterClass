@@ -1,6 +1,6 @@
 package com.kaideas.udemy.section5CodEx;
 
-public class JMC_CodEx16 {
+public class JMC_CodEx16_FirstAndLastDigitSum {
 
   public static void main(String[] args) {
     System.out.println(sumFirstAndLastDigit(252));

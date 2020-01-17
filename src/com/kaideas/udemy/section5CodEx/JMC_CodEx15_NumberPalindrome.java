@@ -2,7 +2,7 @@ package com.kaideas.udemy.section5CodEx;
 
 import java.util.Random;
 
-public class JMC_CodEx15 {
+public class JMC_CodEx15_NumberPalindrome {
 
   public static void main(String[] args) {
     // create instance of Random class

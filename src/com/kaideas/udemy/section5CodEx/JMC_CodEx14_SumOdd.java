@@ -1,6 +1,6 @@
 package com.kaideas.udemy.section5CodEx;
 
-public class JMC_CodEx14 {
+public class JMC_CodEx14_SumOdd {
 
   public static void main(String[] args) {
 

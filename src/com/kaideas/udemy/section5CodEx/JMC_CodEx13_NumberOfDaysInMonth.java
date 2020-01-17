@@ -1,6 +1,6 @@
 package com.kaideas.udemy.section5CodEx;
 
-public class JMC_CodEx13 {
+public class JMC_CodEx13_NumberOfDaysInMonth {
 
   public static void main(String[] args) {
     isLeapYear(-1600);

@@ -1,6 +1,6 @@
 package com.kaideas.udemy.section4CodEx;
 
-public class CodEx_8 {
+public class CodEx_8_AreaCalculator {
 
   // There are no main methods in the actual exercise
   public static void main(String[] args) {

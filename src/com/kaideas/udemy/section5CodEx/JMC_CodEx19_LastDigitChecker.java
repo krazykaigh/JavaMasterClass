@@ -1,6 +1,6 @@
 package com.kaideas.udemy.section5CodEx;
 
-public class JMC_CodEx19 {
+public class JMC_CodEx19_LastDigitChecker {
 
   public static void main(String[] args) {
 

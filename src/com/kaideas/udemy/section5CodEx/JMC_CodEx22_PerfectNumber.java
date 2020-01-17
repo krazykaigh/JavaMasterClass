@@ -1,6 +1,6 @@
 package com.kaideas.udemy.section5CodEx;
 
-public class JMC_CodEx22 {
+public class JMC_CodEx22_PerfectNumber {
 
   public static void main(String[] args) {
 

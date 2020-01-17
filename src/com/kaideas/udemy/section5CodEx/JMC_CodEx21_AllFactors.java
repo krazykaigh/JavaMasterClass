@@ -1,6 +1,6 @@
 package com.kaideas.udemy.section5CodEx;
 
-public class JMC_CodEx21 {
+public class JMC_CodEx21_AllFactors {
 
   public static void main(String[] args) {
     printFactors(6);
