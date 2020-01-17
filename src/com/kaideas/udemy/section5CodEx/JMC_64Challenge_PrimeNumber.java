@@ -2,7 +2,7 @@ package com.kaideas.udemy.section5CodEx;
 
 import java.util.Random;
 
-public class JMC_64Challenge {
+public class JMC_64Challenge_PrimeNumber {
 
   public static void main(String[] args) {
     // create instance of Random class
@@ -35,6 +35,7 @@ public class JMC_64Challenge {
   }
 
   public static double calculateInterest(double amount, double interestRate){
+
     return(amount *(interestRate/100));
   }
 

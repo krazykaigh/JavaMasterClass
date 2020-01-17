@@ -3,11 +3,46 @@ package com.kaideas.udemy.section5CodEx;
 public class JMC_CodEx25_LargestPrime {
 
   public static void main(String[] args) {
-
+    System.out.println(getLargestPrime(21));
+    System.out.println(getLargestPrime(217));
+    System.out.println(getLargestPrime(19));
+    System.out.println(getLargestPrime(45));
+    System.out.println(getLargestPrime(-1));
+    System.out.println(getLargestPrime(7));
   }
 
-  public static void getLargestPrime(int findPrime){
-
+  public static int getLargestPrime(int findPrime) {
+    int largestPrime = 0;
+    boolean isPrime = false;
+    if (findPrime <0) {
+      return -1;
+    }
+    else {
+      // All Factors
+      for (int factor = 2; factor <= findPrime; factor++) {
+        if (findPrime % factor == 0) {
+          // Candidate factor identified
+          // is Candidtate factor a Prime Factor
+          boolean primeCheck = true;
+          while (primeCheck) {
+            int tempPrime = 0;
+            for (int n = 2; n <= (long) Math.sqrt(factor); n++) {
+              // Not a prime
+              if (factor % n == 0) {
+                primeCheck = false;
+                break;
+              }
+            }
+            if (primeCheck) {
+              if (largestPrime < factor)
+                largestPrime = factor;
+              primeCheck = false;
+            }
+          }
+        }
+      }
+    }
+    return (largestPrime > 0) ? largestPrime : -1;
   }
 }
 
