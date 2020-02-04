@@ -2,24 +2,33 @@ package com.kaideas.udemy.section6CodEx;
 
 import com.kaideas.udemy.section6CodEx.inheritance.Animal;
 import com.kaideas.udemy.section6CodEx.inheritance.Dog;
+import com.kaideas.udemy.section6CodEx.inheritanceChallenge.Car;
+import com.kaideas.udemy.section6CodEx.inheritanceChallenge.VW;
+import com.kaideas.udemy.section6CodEx.inheritanceChallenge.Vehicle;
 
 import java.math.BigDecimal;
 
 public class Main {
 
   public static void main(String[] args) {
-    Animal animal = new Animal("Animal", 1, 1, 5, 5);
 
-    Dog dog = new Dog("MinPin", 2, 16, 2, 4, 1, 20, "Short hair");
-    dog.eat();
-    dog.move(5);
-    dog.move(0);
-    dog.move(20);
+    Vehicle vehicle = new Vehicle(3,50);
+    Car car = new Car(3, 24, 4, 4, 1,"Gasoline", "Unknown");
+    VW vw = new VW(4, 30,4,6,1,"Electric", "Golf RE");
+
 
 
   }
 
 }
+//  Animal animal = new Animal("Animal", 1, 1, 5, 5);
+//
+//  Dog dog = new Dog("MinPin", 2, 16, 2, 4, 1, 20, "Short hair");
+//    dog.eat();
+//        dog.move(5);
+//        dog.move(0);
+//        dog.move(20);
+
 
 //    SimpleCalculator sc = new SimpleCalculator();
 //    sc.setFirstNumber(6);

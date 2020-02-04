@@ -5,6 +5,10 @@ public class Vehicle {
   private int accelerate_value;
   private int steering_degree;
 
+  public Vehicle(){
+
+  }
+
   public Vehicle(int accelerate_value, int steering_degree) {
     this.accelerate_value = accelerate_value;
     this.steering_degree = steering_degree;
@@ -23,6 +27,14 @@ public class Vehicle {
   }
 
   public void setSteering_degree(int steering_degree) {
+    if (steering_degree > 35){
+      System.out.println("Steering degree value to high. Auto set to maximum: 35");
+      steering_degree = 35;
+    } else if (steering_degree < 20){
+      System.out.println("Steering degree value to low. Auto set to minimum: 20");
+      steering_degree = 20;
+    }
+
     this.steering_degree = steering_degree;
   }
 
