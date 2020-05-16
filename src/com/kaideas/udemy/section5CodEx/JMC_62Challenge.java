@@ -1,7 +1,5 @@
 package com.kaideas.udemy.section5CodEx;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
 public class JMC_62Challenge {
 
   public static void main(String[] args) {
