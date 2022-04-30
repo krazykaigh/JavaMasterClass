@@ -8,7 +8,6 @@ public class JMC_CodEx15_NumberPalindrome {
     // create instance of Random class
     Random rand = new Random();
     boolean flag = false;
-    int palindrome = 0;
     long counter = 0;
 
     while (!flag) {

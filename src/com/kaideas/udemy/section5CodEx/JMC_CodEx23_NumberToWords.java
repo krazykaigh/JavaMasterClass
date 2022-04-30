@@ -1,7 +1,5 @@
 package com.kaideas.udemy.section5CodEx;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class JMC_CodEx23_NumberToWords {
 
   public static void main(String[] args) {
@@ -107,7 +105,6 @@ public class JMC_CodEx23_NumberToWords {
       return -1;
     int sum = 0;
     do{
-      int calcNum = count % 10;
       count /= 10;
       sum++;
     }while (count != 0);
@@ -115,8 +112,6 @@ public class JMC_CodEx23_NumberToWords {
   }
 
   public static int reverse(int number) {
-    int zeros  = getDigitCount(number);
-
     //number = Math.abs(number);
     int reverseNumber = 0;
 

@@ -13,7 +13,6 @@ public class JMC_CodEx25_LargestPrime {
 
   public static int getLargestPrime(int findPrime) {
     int largestPrime = 0;
-    boolean isPrime = false;
     if (findPrime <0) {
       return -1;
     }
@@ -25,7 +24,6 @@ public class JMC_CodEx25_LargestPrime {
           // is Candidtate factor a Prime Factor
           boolean primeCheck = true;
           while (primeCheck) {
-            int tempPrime = 0;
             for (int n = 2; n <= (long) Math.sqrt(factor); n++) {
               // Not a prime
               if (factor % n == 0) {

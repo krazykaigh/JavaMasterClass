@@ -1,7 +1,5 @@
 package com.kaideas.udemy.section4CodEx;
 
-import java.util.ArrayList;
-
 public class JMC45 {
 
   // Began JMC45 modified to become JMC47 - 49

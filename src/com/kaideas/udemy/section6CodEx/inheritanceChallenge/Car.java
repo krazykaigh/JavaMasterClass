@@ -6,8 +6,6 @@ public class Car extends Vehicle {
 
   private int numDoors;
   private int gears;
-  private int currentGear;
-
   private String engineType;
   private String manufacturer;
 
@@ -26,7 +24,6 @@ public class Car extends Vehicle {
     super(accelerate_value, steering_degree);
     this.numDoors = numDoors;
     this.gears = gears;
-    this.currentGear = currentGear;
     this.engineType = engineType;
     this.manufacturer = manufacturer;
   }
